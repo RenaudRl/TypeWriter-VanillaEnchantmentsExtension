@@ -7,10 +7,10 @@ import com.typewritermc.engine.paper.plugin
 @Singleton
 object Initializer : Initializable {
     override suspend fun initialize() {
-        logger.info("AdvancedEnchantmentsExtension has been successfully initialized. By Renaud")
+        logger.info("VanillaEnchantmentsExtension has been successfully initialized. By Renaud")
     }
 
     override suspend fun shutdown() {
-        logger.info("AdvancedEnchantmentsExtension has been successfully stopped.")
+        logger.info("VanillaEnchantmentsExtension has been successfully stopped.")
     }
 }
