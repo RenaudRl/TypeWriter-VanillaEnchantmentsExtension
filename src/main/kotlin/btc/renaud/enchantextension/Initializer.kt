@@ -7,7 +7,6 @@ import com.typewritermc.engine.paper.plugin
 @Singleton
 object Initializer : Initializable {
     override suspend fun initialize() {
-        plugin.server.pluginManager.getPlugin("AdvancedEnchantments")
         logger.info("AdvancedEnchantmentsExtension has been successfully initialized. By Renaud")
     }
 
